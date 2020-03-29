@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GyemsMotor", "GyemsMotor\GyemsMotor.csproj", "{4F80C02E-01EF-4326-97CF-318D22A04F93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsbCanAnalyzer", "UsbCanAnalyzer\UsbCanAnalyzer\UsbCanAnalyzer.csproj", "{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B26C36D-5462-494B-A610-A7A58812A2A3}
+	EndGlobalSection
+EndGlobal

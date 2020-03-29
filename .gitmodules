@@ -1,0 +1,3 @@
+[submodule "UsbCanAnalyzer"]
+	path = UsbCanAnalyzer
+	url = https://github.com/cody82/UsbCanAnalyzer.git
