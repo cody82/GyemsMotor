@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CanInterfaceDotNet\CanInterfaceDotNet\CanInterfaceDotNet.csproj" />
-    <ProjectReference Include="..\UsbCanAnalyzer\UsbCanAnalyzer\UsbCanAnalyzer.csproj" />
+    <ProjectReference Include="..\Can.Net\CanInterface\CanInterface.csproj" />
+    <ProjectReference Include="..\Can.Net\UsbCanAnalyzer\UsbCanAnalyzer.csproj" />
   </ItemGroup>
 
 </Project>

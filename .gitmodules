@@ -1,6 +1,6 @@
-[submodule "UsbCanAnalyzer"]
-	path = UsbCanAnalyzer
-	url = https://github.com/cody82/UsbCanAnalyzer.git
-[submodule "CanInterfaceDotNet"]
-	path = CanInterfaceDotNet
-	url = https://github.com/cody82/CanInterfaceDotNet.git
+[submodule "PeakCan"]
+	path = PeakCan
+	url = https://github.com/cody82/PeakCan.git
+[submodule "Can.Net"]
+	path = Can.Net
+	url = https://github.com/cody82/Can.Net.git

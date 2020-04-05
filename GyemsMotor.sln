@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GyemsMotor", "GyemsMotor\GyemsMotor.csproj", "{4F80C02E-01EF-4326-97CF-318D22A04F93}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsbCanAnalyzer", "UsbCanAnalyzer\UsbCanAnalyzer\UsbCanAnalyzer.csproj", "{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanInterface", "Can.Net\CanInterface\CanInterface.csproj", "{983B6D77-8DC6-4A7B-801A-676942724A26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanInterfaceDotNet", "CanInterfaceDotNet\CanInterfaceDotNet\CanInterfaceDotNet.csproj", "{820C8C4A-D978-4922-874C-578E606A4349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakCan", "Can.Net\PeakCan\PeakCan.csproj", "{16290608-FF35-4845-8050-DF5473D58149}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsbCanAnalyzer", "Can.Net\UsbCanAnalyzer\UsbCanAnalyzer.csproj", "{18F36787-885B-422B-A139-464FE32385B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F80C02E-01EF-4326-97CF-318D22A04F93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1608AF9C-0B12-4186-A3C6-BEF18C5A54B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{820C8C4A-D978-4922-874C-578E606A4349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{820C8C4A-D978-4922-874C-578E606A4349}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{820C8C4A-D978-4922-874C-578E606A4349}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{820C8C4A-D978-4922-874C-578E606A4349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983B6D77-8DC6-4A7B-801A-676942724A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983B6D77-8DC6-4A7B-801A-676942724A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983B6D77-8DC6-4A7B-801A-676942724A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983B6D77-8DC6-4A7B-801A-676942724A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16290608-FF35-4845-8050-DF5473D58149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16290608-FF35-4845-8050-DF5473D58149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16290608-FF35-4845-8050-DF5473D58149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16290608-FF35-4845-8050-DF5473D58149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F36787-885B-422B-A139-464FE32385B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F36787-885B-422B-A139-464FE32385B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F36787-885B-422B-A139-464FE32385B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F36787-885B-422B-A139-464FE32385B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
