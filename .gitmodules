@@ -1,6 +1,3 @@
-[submodule "PeakCan"]
-	path = PeakCan
-	url = https://github.com/cody82/PeakCan.git
 [submodule "Can.Net"]
 	path = Can.Net
 	url = https://github.com/cody82/Can.Net.git
