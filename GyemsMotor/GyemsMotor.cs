@@ -100,9 +100,13 @@ namespace Gyems
             Console.WriteLine("Acceleration: {0}", accel);
         }
 
+        static int Clamp(int v, int min, int max)
+        {
+            return Math.Max(Math.Min(v, max), min);
+        }
         public void Current(float current)
         {
-            int value = Math.Clamp((int)(current * 2000.0f), -2000, 2000);
+            int value = Clamp((int)(current * 2000.0f), -2000, 2000);
             var bytes = BitConverter.GetBytes((short)value);
             Console.WriteLine("{0} {1}", bytes[0], bytes[1]);
             Can.SendFrame(
@@ -120,7 +124,7 @@ namespace Gyems
 
         public void Speed(float rpm)
         {
-            int value = Math.Clamp((int)(rpm * 360.0f / 60.0f * 100), int.MinValue, int.MaxValue);
+            int value = Clamp((int)(rpm * 360.0f / 60.0f * 100), int.MinValue, int.MaxValue);
             var bytes = BitConverter.GetBytes(value);
             Can.SendFrame(
                 new Frame()

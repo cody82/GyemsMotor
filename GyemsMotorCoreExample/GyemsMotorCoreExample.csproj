@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Can.Net\CanInterface\CanInterface.csproj" />
+    <ProjectReference Include="..\Can.Net\PeakCan\PeakCan.csproj" />
+    <ProjectReference Include="..\Can.Net\UsbCanAnalyzer\UsbCanAnalyzer.csproj" />
+    <ProjectReference Include="..\GyemsMotor\GyemsMotor.csproj" />
+  </ItemGroup>
+
+</Project>
