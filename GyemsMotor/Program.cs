@@ -13,7 +13,7 @@ namespace SeeedCan
         static void Main(string[] args)
         {
             var port = new UsbCanAnalyzer.UsbCan("COM3");
-            port.Open(CanInterface.Speed.Speed_1000000);
+            port.Open(CanInterface.Baudrate.Baudrate1000000);
             var motor = new GyemsMotor(port, 0x141);
 
             port.ReceiveFrame(false);

@@ -1,3 +1,6 @@
 [submodule "UsbCanAnalyzer"]
 	path = UsbCanAnalyzer
 	url = https://github.com/cody82/UsbCanAnalyzer.git
+[submodule "CanInterfaceDotNet"]
+	path = CanInterfaceDotNet
+	url = https://github.com/cody82/CanInterfaceDotNet.git

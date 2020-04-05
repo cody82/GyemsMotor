@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CanInterfaceDotNet\CanInterfaceDotNet\CanInterfaceDotNet.csproj" />
     <ProjectReference Include="..\UsbCanAnalyzer\UsbCanAnalyzer\UsbCanAnalyzer.csproj" />
   </ItemGroup>
 
